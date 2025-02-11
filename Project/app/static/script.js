@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
         };
         console.log(`la ubicacion detectada es: ${data.longitude}, ${data.latitude}`)
 
-        fetch(`${path}/get_location/`, {
+        fetch(`${path}:8000/get_location/`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
