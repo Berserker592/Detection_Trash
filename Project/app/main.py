@@ -214,4 +214,5 @@ async def get_location(location: LocationRequest):
     
     # Guardar el mapa como un archivo HTML
     m.save('/app/static/ruta_map.html')
+    print('Si se guardo correctamente la imagen')
 
