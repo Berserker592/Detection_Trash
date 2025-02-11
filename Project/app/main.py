@@ -27,7 +27,7 @@ app.add_middleware(
 
 @app.get("/")
 def get_frontend():
-    return FileResponse("/static/index.html")
+    return FileResponse("static/index.html")
 
 id_select = "None"
 #Simulacion de Dispositivos
